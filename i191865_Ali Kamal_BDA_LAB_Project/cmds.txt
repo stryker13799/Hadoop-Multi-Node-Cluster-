@@ -1,0 +1,2 @@
+su - hadoopuser
+hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.2.1.jar \-file ~/mapper.py -mapper mapper.py \-file ~/reducer.py -reducer reducer.py -input /Input/i191865 -output /output/i191865
